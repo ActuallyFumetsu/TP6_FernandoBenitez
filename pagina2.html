@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="pagina2.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a la Página Principal!</h1>
+        <p id="mensaje-bienvenida"></p>
+
+        <div id="nombre-pregunta">
+            <label for="nombre">¿Cómo te llamas?</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+            <button id="guardar-nombre">Guardar</button>
+        </div>
+
+        <div class="botones-container">
+            <button class="boton-animado" onclick="window.location.href='index.html'">Inicio</button>
+            <button class="boton-animado" onclick="window.location.href='pagina3.html'">Pagina 3</button>
+            <button class="boton-animado" onclick="window.location.href='pagina4.html'">Pagina 4</button>
+        </div>
+
+        <div class="descripciones">
+            <h3>¿Qué encontrarás en las otras páginas?</h3>
+            <ul>
+                <li><strong>Inicio:</strong> Página de Inicio de Sesión.</li>
+                <li><strong>Página 3:</strong> Formulario.</li>
+                <li><strong>Página 4:</strong> Formulario 2.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
