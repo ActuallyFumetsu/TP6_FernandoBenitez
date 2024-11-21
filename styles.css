@@ -58,3 +58,83 @@ button:hover {
     margin-top: 15px;
     font-weight: bold;
 }
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/* Encabezados */
+h1, h3 {
+    color: #333;
+}
+
+/* Botones animados */
+.boton-animado {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.boton-animado:hover {
+    background: #45a049;
+    transform: scale(1.1);
+}
+
+.boton-animado:active {
+    background: #3e8e41;
+    transform: scale(0.9);
+}
+
+/* Lista de descripciones */
+.descripciones ul {
+    text-align: left;
+    margin-top: 20px;
+    display: inline-block;
+    color: #555;
+}
+
+.descripciones ul li {
+    margin: 10px 0;
+}
+
+/* Campo para preguntar el nombre */
+#nombre-pregunta {
+    margin: 20px 0;
+}
+
+#nombre {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#guardar-nombre {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#guardar-nombre:hover {
+    background: #0056b3;
+}
